@@ -16,3 +16,5 @@ RUN apk --no-cache -U add \
 ENV JQ_VERSION 1.5
 RUN curl -o /usr/local/bin/jq -JsSL https://github.com/stedolan/jq/releases/download/jq-${JQ_VERSION}/jq-linux64 \
   && chmod +x /usr/local/bin/jq
+
+ENTRYPOINT [ "/bin/bash" ]
