@@ -4,7 +4,7 @@ Val's Alpine Image (get it?)
 
 Contains:
 
-+ Alpine 3.9
++ Alpine 3.11
 + bash
 + curl
 + git
