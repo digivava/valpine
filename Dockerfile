@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.11
 MAINTAINER Valerie Conklin <github.com/digivava>
 
 RUN apk --no-cache -U add \
